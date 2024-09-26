@@ -33,7 +33,7 @@ function App() {
     },
   ]) */
 
-  // 2nd Method -> Best & Easy
+  // 2nd Method -> Best & Easy.................
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<AppLayout />} errorElement={<Error />} > 
